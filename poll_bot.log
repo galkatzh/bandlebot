@@ -1,0 +1,8 @@
+2025-09-02 23:41:02,767 - INFO - Starting new week: 2025-09-01
+2025-09-02 23:41:02,767 - INFO - Getting updates since update_id 0
+2025-09-02 23:41:03,219 - INFO - Processing 3 new updates
+2025-09-02 23:41:03,220 - INFO - Updated last_update_id to 476267289
+2025-09-02 23:41:03,220 - INFO - Posting new daily poll
+2025-09-02 23:41:03,527 - INFO - Posted poll for Tuesday, September 02, 2025 (Poll ID: 5891235249253253957)
+2025-09-02 23:41:03,527 - INFO - Added poll 5891235249253253957 to active polls
+2025-09-02 23:41:03,529 - INFO - Daily task completed
