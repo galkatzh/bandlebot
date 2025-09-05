@@ -12,12 +12,16 @@
     "5893509541810668102": {
       "message_id": 6,
       "date": "2025-09-04"
+    },
+    "5897610273505673808": {
+      "message_id": 7,
+      "date": "2025-09-05"
     }
   },
   "votes": {
-    "G": 1,
+    "G": 5,
     "Segev": 1
   },
   "processed_polls": [],
-  "last_update_id": 476267293
+  "last_update_id": 476267295
 }
