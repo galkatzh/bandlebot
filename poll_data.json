@@ -16,12 +16,16 @@
     "5897610273505673808": {
       "message_id": 7,
       "date": "2025-09-05"
+    },
+    "5899862073319359092": {
+      "message_id": 8,
+      "date": "2025-09-06"
     }
   },
   "votes": {
-    "G": 5,
+    "G": 6,
     "Segev": 1
   },
   "processed_polls": [],
-  "last_update_id": 476267295
+  "last_update_id": 476267297
 }

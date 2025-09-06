@@ -31,3 +31,12 @@
 2025-09-05 02:36:13,041 - INFO - Posted poll for Friday, September 05, 2025 (Poll ID: 5897610273505673808)
 2025-09-05 02:36:13,041 - INFO - Added poll 5897610273505673808 to active polls
 2025-09-05 02:36:13,043 - INFO - Daily task completed
+2025-09-06 02:23:23,588 - INFO - Getting updates since update_id 476267295
+2025-09-06 02:23:23,991 - INFO - Processing 2 new updates
+2025-09-06 02:23:23,992 - INFO - Recorded vote: G voted 1 on poll 5897610273505673808
+2025-09-06 02:23:23,992 - INFO - Updated last_update_id to 476267297
+2025-09-06 02:23:23,992 - INFO - Processed 1 new votes
+2025-09-06 02:23:23,992 - INFO - Posting new daily poll
+2025-09-06 02:23:24,358 - INFO - Posted poll for Saturday, September 06, 2025 (Poll ID: 5899862073319359092)
+2025-09-06 02:23:24,359 - INFO - Added poll 5899862073319359092 to active polls
+2025-09-06 02:23:24,360 - INFO - Daily task completed
