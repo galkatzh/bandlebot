@@ -49,3 +49,11 @@
 2025-09-07 02:39:55,735 - INFO - Posted poll for Sunday, September 07, 2025 (Poll ID: 5902190065852875843)
 2025-09-07 02:39:55,735 - INFO - Added poll 5902190065852875843 to active polls
 2025-09-07 02:39:55,737 - INFO - Daily task completed
+2025-09-08 02:42:46,878 - INFO - Starting new week: 2025-09-08
+2025-09-08 02:42:46,879 - INFO - Getting updates since update_id 476267299
+2025-09-08 02:42:47,345 - INFO - Processing 2 new updates
+2025-09-08 02:42:47,345 - INFO - Updated last_update_id to 476267301
+2025-09-08 02:42:47,346 - INFO - Posting new daily poll
+2025-09-08 02:42:47,657 - INFO - Posted poll for Monday, September 08, 2025 (Poll ID: 5904250456154047390)
+2025-09-08 02:42:47,657 - INFO - Added poll 5904250456154047390 to active polls
+2025-09-08 02:42:47,658 - INFO - Daily task completed
