@@ -203,29 +203,6 @@ class TelegramPollBot:
         except Exception as e:
             logger.error(f"Failed to send weekly summary: {e}")
     
-    def clean_old_polls(self, data: Dict) -> None:
-        """Remove polls older than 7 days from active polls"""
-        current_date = datetime.now()
-        polls_to_remove = []
-        
-        for poll_id, poll_info in data["active_polls"].items():
-            poll_date_str = poll_info.get("date")
-            if poll_date_str:
-                try:
-                    poll_date = datetime.strptime(poll_date_str, "%Y-%m-%d")
-                    days_old = (current_date - poll_date).days
-                    
-                    if days_old > 7:
-                        polls_to_remove.append(poll_id)
-                        logger.info(f"Removing old poll {poll_id} from {poll_date_str}")
-                except ValueError:
-                    # Invalid date format, remove it
-                    polls_to_remove.append(poll_id)
-        
-        for poll_id in polls_to_remove:
-            del data["active_polls"][poll_id]
-            data["processed_polls"].discard(poll_id)
-    
     def run_daily_task(self) -> None:
         """Main daily task - post poll and process votes"""
         data = self.load_data()
@@ -237,6 +214,9 @@ class TelegramPollBot:
         now = datetime.now()
         current_week = self.get_week_start(now)
         current_date = now.strftime("%Y-%m-%d")
+        # Get new updates since last processed update
+        logger.info(f"Getting updates since update_id {data.get('last_update_id', 0)}")
+        updates = self.get_new_updates(data.get("last_update_id", 0))
         if updates:
             logger.info(f"Processing {len(updates)} new updates")
             
@@ -258,7 +238,7 @@ class TelegramPollBot:
         else:
             logger.info("No new updates to process")
         # Check if it's a new week (or first run)
-        if now.weekday() == 6 and:
+        if now.weekday() == 6:
             # If it's Sunday and we have data from previous week, send summary
             if  data.get("votes"):  # Sunday = 6
                 logger.info("It's Sunday - sending weekly summary")
@@ -275,10 +255,7 @@ class TelegramPollBot:
                 "processed_polls": set(),
                 "last_update_id": last_update_id
             }
-        
-        # Get new updates since last processed update
-        logger.info(f"Getting updates since update_id {data.get('last_update_id', 0)}")
-        updates = self.get_new_updates(data.get("last_update_id", 0))
+
         # Post new poll
         logger.info("Posting new daily poll")
         try:
@@ -291,10 +268,6 @@ class TelegramPollBot:
             
         except Exception as e:
             logger.error(f"Failed to post daily poll: {e}")
-        
-        # Clean up old polls (keep only last 7 days)
-        self.clean_old_polls(data)
-        
         # Save updated data
         self.save_data(data)
         logger.info("Daily task completed")
