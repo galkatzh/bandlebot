@@ -71,7 +71,7 @@ class TelegramPollBot:
     def get_week_start(self, date: datetime) -> str:
         """Get the Monday of the week for a given date"""
         days_since_monday = date.weekday()
-        monday = date - timedelta(days=days_since_monday)
+        monday = date - timedelta(days=(days_since_monday + 1))
         return monday.strftime("%Y-%m-%d")
     
     def send_request(self, method: str, params: Dict) -> Dict:
@@ -237,30 +237,6 @@ class TelegramPollBot:
         now = datetime.now()
         current_week = self.get_week_start(now)
         current_date = now.strftime("%Y-%m-%d")
-        
-        # Check if it's a new week (or first run)
-        if data.get("current_week_start") != current_week:
-            # If it's Sunday and we have data from previous week, send summary
-            if now.weekday() == 6 and data.get("votes"):  # Sunday = 6
-                logger.info("It's Sunday - sending weekly summary")
-                self.send_weekly_summary(data["votes"])
-            
-            # Start new week
-            logger.info(f"Starting new week: {current_week}")
-            # Keep last_update_id to maintain continuity
-            last_update_id = data.get("last_update_id", 0)
-            data = {
-                "current_week_start": current_week,
-                "active_polls": {},
-                "votes": {},
-                "processed_polls": set(),
-                "last_update_id": last_update_id
-            }
-        
-        # Get new updates since last processed update
-        logger.info(f"Getting updates since update_id {data.get('last_update_id', 0)}")
-        updates = self.get_new_updates(data.get("last_update_id", 0))
-        
         if updates:
             logger.info(f"Processing {len(updates)} new updates")
             
@@ -281,7 +257,28 @@ class TelegramPollBot:
                 logger.info(f"Processed {len(poll_votes)} new votes")
         else:
             logger.info("No new updates to process")
+        # Check if it's a new week (or first run)
+        if now.weekday() == 6 and:
+            # If it's Sunday and we have data from previous week, send summary
+            if  data.get("votes"):  # Sunday = 6
+                logger.info("It's Sunday - sending weekly summary")
+                self.send_weekly_summary(data["votes"])
+            
+            # Start new week
+            logger.info(f"Starting new week: {current_week}")
+            # Keep last_update_id to maintain continuity
+            last_update_id = data.get("last_update_id", 0)
+            data = {
+                "current_week_start": current_week,
+                "active_polls": {},
+                "votes": {},
+                "processed_polls": set(),
+                "last_update_id": last_update_id
+            }
         
+        # Get new updates since last processed update
+        logger.info(f"Getting updates since update_id {data.get('last_update_id', 0)}")
+        updates = self.get_new_updates(data.get("last_update_id", 0))
         # Post new poll
         logger.info("Posting new daily poll")
         try:
