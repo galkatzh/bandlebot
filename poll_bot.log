@@ -137,3 +137,12 @@
 2025-09-15 02:44:04,904 - INFO - Posted poll for Monday, September 15, 2025 (Poll ID: 5924905834348806950)
 2025-09-15 02:44:04,905 - INFO - Added poll 5924905834348806950 to active polls
 2025-09-15 02:44:04,905 - INFO - Daily task completed
+2025-09-16 02:33:23,938 - INFO - Getting updates since update_id 476267361
+2025-09-16 02:33:24,561 - INFO - Processing 2 new updates
+2025-09-16 02:33:24,561 - INFO - Recorded vote: OP_PikiPik voted 1 on poll 5924905834348806950
+2025-09-16 02:33:24,561 - INFO - Updated last_update_id to 476267363
+2025-09-16 02:33:24,561 - INFO - Processed 1 new votes
+2025-09-16 02:33:24,561 - INFO - Posting new daily poll
+2025-09-16 02:33:25,054 - INFO - Posted poll for Tuesday, September 16, 2025 (Poll ID: 5929060085631288641)
+2025-09-16 02:33:25,054 - INFO - Added poll 5929060085631288641 to active polls
+2025-09-16 02:33:25,054 - INFO - Daily task completed
