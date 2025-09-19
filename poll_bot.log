@@ -158,3 +158,16 @@
 2025-09-18 02:34:07,371 - INFO - Posted poll for Thursday, September 18, 2025 (Poll ID: 5933823801363006096)
 2025-09-18 02:34:07,371 - INFO - Added poll 5933823801363006096 to active polls
 2025-09-18 02:34:07,372 - INFO - Daily task completed
+2025-09-19 02:37:37,095 - INFO - Getting updates since update_id 476267363
+2025-09-19 02:37:37,463 - INFO - Processing 10 new updates
+2025-09-19 02:37:37,463 - INFO - Recorded vote: Segev voted 6 on poll 5922654034535122417
+2025-09-19 02:37:37,463 - INFO - Recorded vote: Segev voted 3 on poll 5924905834348806950
+2025-09-19 02:37:37,463 - INFO - Recorded vote: Segev voted 1 on poll 5929060085631288641
+2025-09-19 02:37:37,463 - INFO - Recorded vote: Segev voted 4 on poll 5931311885444973747
+2025-09-19 02:37:37,464 - INFO - Recorded vote: OP_PikiPik voted 1 on poll 5929060085631288641
+2025-09-19 02:37:37,464 - INFO - Updated last_update_id to 476267373
+2025-09-19 02:37:37,464 - INFO - Processed 5 new votes
+2025-09-19 02:37:37,464 - INFO - Posting new daily poll
+2025-09-19 02:37:37,759 - INFO - Posted poll for Friday, September 19, 2025 (Poll ID: 5938309194624009827)
+2025-09-19 02:37:37,759 - INFO - Added poll 5938309194624009827 to active polls
+2025-09-19 02:37:37,759 - INFO - Daily task completed

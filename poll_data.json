@@ -20,11 +20,16 @@
     "5933823801363006096": {
       "message_id": 43,
       "date": "2025-09-18"
+    },
+    "5938309194624009827": {
+      "message_id": 44,
+      "date": "2025-09-19"
     }
   },
   "votes": {
-    "OP_PikiPik": 7
+    "OP_PikiPik": 8,
+    "Segev": 14
   },
   "processed_polls": [],
-  "last_update_id": 476267363
+  "last_update_id": 476267373
 }
