@@ -177,3 +177,21 @@
 2025-09-20 02:22:47,492 - INFO - Posted poll for Saturday, September 20, 2025 (Poll ID: 5940560994437695565)
 2025-09-20 02:22:47,493 - INFO - Added poll 5940560994437695565 to active polls
 2025-09-20 02:22:47,493 - INFO - Daily task completed
+2025-09-21 02:44:09,761 - INFO - Getting updates since update_id 476267373
+2025-09-21 02:44:10,123 - INFO - Processing 16 new updates
+2025-09-21 02:44:10,124 - INFO - Recorded vote: OP_PikiPik voted 6 on poll 5931311885444973747
+2025-09-21 02:44:10,124 - INFO - Recorded vote: OP_PikiPik voted 5 on poll 5933823801363006096
+2025-09-21 02:44:10,124 - INFO - Recorded vote: OP_PikiPik voted 4 on poll 5938309194624009827
+2025-09-21 02:44:10,124 - INFO - Recorded vote: Segev voted 2 on poll 5933823801363006096
+2025-09-21 02:44:10,124 - INFO - Recorded vote: Segev voted 5 on poll 5938309194624009827
+2025-09-21 02:44:10,124 - INFO - Recorded vote: Segev voted 2 on poll 5940560994437695565
+2025-09-21 02:44:10,124 - INFO - Recorded vote: G voted 6 on poll 5940560994437695565
+2025-09-21 02:44:10,124 - INFO - Updated last_update_id to 476267389
+2025-09-21 02:44:10,124 - INFO - Processed 7 new votes
+2025-09-21 02:44:10,124 - INFO - It's Sunday - sending weekly summary
+2025-09-21 02:44:10,455 - INFO - Sent weekly summary
+2025-09-21 02:44:10,456 - INFO - Starting new week: 2025-09-14
+2025-09-21 02:44:10,456 - INFO - Posting new daily poll
+2025-09-21 02:44:10,798 - INFO - Posted poll for Sunday, September 21, 2025 (Poll ID: 5942754928157000471)
+2025-09-21 02:44:10,798 - INFO - Added poll 5942754928157000471 to active polls
+2025-09-21 02:44:10,798 - INFO - Daily task completed
