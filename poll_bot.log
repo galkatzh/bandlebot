@@ -207,3 +207,9 @@
 2025-09-23 02:34:45,017 - INFO - Posted poll for Tuesday, September 23, 2025 (Poll ID: 5949307356033582099)
 2025-09-23 02:34:45,017 - INFO - Added poll 5949307356033582099 to active polls
 2025-09-23 02:34:45,018 - INFO - Daily task completed
+2025-09-24 02:36:08,843 - INFO - Getting updates since update_id 476267389
+2025-09-24 02:36:19,198 - INFO - No new updates to process
+2025-09-24 02:36:19,199 - INFO - Posting new daily poll
+2025-09-24 02:36:19,516 - INFO - Posted poll for Wednesday, September 24, 2025 (Poll ID: 5954262790515459032)
+2025-09-24 02:36:19,517 - INFO - Added poll 5954262790515459032 to active polls
+2025-09-24 02:36:19,517 - INFO - Daily task completed
