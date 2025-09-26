@@ -20,11 +20,15 @@
     "5956345802409379290": {
       "message_id": 53,
       "date": "2025-09-25"
+    },
+    "5958597602223064927": {
+      "message_id": 54,
+      "date": "2025-09-26"
     }
   },
   "votes": {
-    "Segev": 6
+    "Segev": 14
   },
   "processed_polls": [],
-  "last_update_id": 476267393
+  "last_update_id": 476267397
 }
