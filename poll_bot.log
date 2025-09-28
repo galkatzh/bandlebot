@@ -239,3 +239,19 @@
 2025-09-27 02:22:34,610 - INFO - Posted poll for Saturday, September 27, 2025 (Poll ID: 5960857661258860339)
 2025-09-27 02:22:34,610 - INFO - Added poll 5960857661258860339 to active polls
 2025-09-27 02:22:34,610 - INFO - Daily task completed
+2025-09-28 02:44:55,375 - INFO - Getting updates since update_id 476267397
+2025-09-28 02:44:55,934 - INFO - Processing 10 new updates
+2025-09-28 02:44:55,934 - INFO - Recorded vote: Adar voted 2 on poll 5954262790515459032
+2025-09-28 02:44:55,934 - INFO - Recorded vote: Adar voted 2 on poll 5960857661258860339
+2025-09-28 02:44:55,935 - INFO - Recorded vote: Segev voted 3 on poll 5956345802409379290
+2025-09-28 02:44:55,935 - INFO - Recorded vote: Segev voted 2 on poll 5958597602223064927
+2025-09-28 02:44:55,935 - INFO - Recorded vote: Segev voted 2 on poll 5960857661258860339
+2025-09-28 02:44:55,935 - INFO - Updated last_update_id to 476267407
+2025-09-28 02:44:55,935 - INFO - Processed 5 new votes
+2025-09-28 02:44:55,935 - INFO - It's Sunday - sending weekly summary
+2025-09-28 02:44:56,405 - INFO - Sent weekly summary
+2025-09-28 02:44:56,405 - INFO - Starting new week: 2025-09-21
+2025-09-28 02:44:56,405 - INFO - Posting new daily poll
+2025-09-28 02:44:56,886 - INFO - Posted poll for Sunday, September 28, 2025 (Poll ID: 5965562029132481014)
+2025-09-28 02:44:56,886 - INFO - Added poll 5965562029132481014 to active polls
+2025-09-28 02:44:56,886 - INFO - Daily task completed
