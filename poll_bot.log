@@ -302,3 +302,16 @@
 2025-10-04 02:20:01,242 - INFO - Posted poll for Saturday, October 04, 2025 (Poll ID: 5983465278183310186)
 2025-10-04 02:20:01,242 - INFO - Added poll 5983465278183310186 to active polls
 2025-10-04 02:20:01,242 - INFO - Daily task completed
+2025-10-05 02:44:01,919 - INFO - Getting updates since update_id 476267421
+2025-10-05 02:44:02,305 - INFO - Processing 4 new updates
+2025-10-05 02:44:02,305 - INFO - Recorded vote: OP_PikiPik voted 6 on poll 5978845723028882492
+2025-10-05 02:44:02,305 - INFO - Recorded vote: OP_PikiPik voted 3 on poll 5983465278183310186
+2025-10-05 02:44:02,305 - INFO - Updated last_update_id to 476267425
+2025-10-05 02:44:02,305 - INFO - Processed 2 new votes
+2025-10-05 02:44:02,305 - INFO - It's Sunday - sending weekly summary
+2025-10-05 02:44:02,610 - INFO - Sent weekly summary
+2025-10-05 02:44:02,611 - INFO - Starting new week: 2025-09-28
+2025-10-05 02:44:02,611 - INFO - Posting new daily poll
+2025-10-05 02:44:02,931 - INFO - Posted poll for Sunday, October 05, 2025 (Poll ID: 5985717077996995602)
+2025-10-05 02:44:02,932 - INFO - Added poll 5985717077996995602 to active polls
+2025-10-05 02:44:02,932 - INFO - Daily task completed
