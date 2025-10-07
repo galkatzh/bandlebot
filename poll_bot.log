@@ -321,3 +321,9 @@
 2025-10-06 02:38:36,623 - INFO - Posted poll for Monday, October 06, 2025 (Poll ID: 5987888209734927212)
 2025-10-06 02:38:36,624 - INFO - Added poll 5987888209734927212 to active polls
 2025-10-06 02:38:36,624 - INFO - Daily task completed
+2025-10-07 02:34:41,929 - INFO - Getting updates since update_id 476267425
+2025-10-07 02:34:52,268 - INFO - No new updates to process
+2025-10-07 02:34:52,268 - INFO - Posting new daily poll
+2025-10-07 02:34:52,588 - INFO - Posted poll for Tuesday, October 07, 2025 (Poll ID: 5990164018415798473)
+2025-10-07 02:34:52,589 - INFO - Added poll 5990164018415798473 to active polls
+2025-10-07 02:34:52,589 - INFO - Daily task completed
